@@ -1,0 +1,23 @@
+{
+    "version": "0.0.1-*",
+    "packOptions": {
+        "owners": [ "Microsoft", "ebyte23" ],
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/eByte23/UsePathBase"
+        },
+        "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+        "summary": "Allows for Path Base to be set as environment variable",
+        "tags": [ "Path", "Base", "Url", "AspNetCore", "AspNet", "Core" ]
+    },
+    "buildOptions": {
+        "debugType": "portable"
+    },
+    "frameworks": {
+        "netstandard1.3": {
+            "dependencies": {
+                "Microsoft.AspNetCore.Http.Abstractions": "1.0.0"
+            }
+        }
+    }
+}

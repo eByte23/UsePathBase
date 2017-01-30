@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1-*",
+    "version": "0.0.2-*",
     "packOptions": {
         "owners": [ "Microsoft", "ebyte23" ],
         "repository": {
@@ -16,7 +16,7 @@
     "frameworks": {
         "netstandard1.3": {
             "dependencies": {
-                "Microsoft.AspNetCore.Http.Abstractions": "1.0.0"
+                "Microsoft.AspNetCore.Http.Abstractions": "1.1.0"
             }
         }
     }
